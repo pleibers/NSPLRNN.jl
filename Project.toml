@@ -3,6 +3,9 @@ uuid = "75837118-84f8-49d8-8b52-1c3c9c3aec1e"
 authors = ["Patrick Leibersperger <pleibersperger@posteo.de> and contributors"]
 version = "0.1.0"
 
+[deps]
+BPTT = "84beb053-a066-4ae9-8af9-707f5e1c390b"
+
 [compat]
 julia = "1"
 
