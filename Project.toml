@@ -5,6 +5,7 @@ version = "0.1.0"
 
 [deps]
 BPTT = "84beb053-a066-4ae9-8af9-707f5e1c390b"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
 
 [compat]
 julia = "1"

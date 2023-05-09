@@ -2,10 +2,12 @@
 module NSPLRNN
 
 using BPTT
+using Flux
 
 abstract type AbstractNAPLRNN <: BPTT.AbstractShallowPLRNN end
 abstract type AbstractNSPLRNN <: AbstractNAPLRNN end
 
+include("initialization.jl")
 include("naPLRNN.jl")
 include("nsPLRNN.jl")
 

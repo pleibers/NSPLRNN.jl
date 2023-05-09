@@ -22,4 +22,4 @@ You might need to remove BPTT and add it manually after with `add link_to_BPTT`
 
 The time input needs to be the first dimension of the external inputs, with the actual inputs concatenated thereafter.
 
-Documentation is available via running "make.jl" in docs/
+Documentation is available via running "julia --project docs/make.jl"
